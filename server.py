@@ -42,7 +42,5 @@ def getFact():
 
     print(req)  #print on server side
     return jsonify({"fulfillmentText":"Flask server hit"}) #return on client side
-
-
-if __name__ == "__main__":
-app.run()
+    if __name__ == "__main__":
+        app.run()
